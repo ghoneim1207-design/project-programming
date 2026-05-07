@@ -25,9 +25,9 @@ class Menu{
     public :
     void lmenu(){
         //we dont need to return this into another function as we just need it to print the menu as is 
-        /*this shows each items and its price 
-        for example we used pushback to push the item to the next part of the memory after that we added burger to the foodname then we made its price 50 pounds this is why i used the vector library
-        */
+       //this shows each items and its price 
+       // for example we used pushback to push the item to the next part of the memory after that we added burger to the foodname then we made its price 50 pounds this is why i used the vector library
+  
         
         items[0] = food("burger",50);
         items[1] = food("Vcola", 700.5);
